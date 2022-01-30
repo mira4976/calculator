@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <script src="scripts\main.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles\styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="calculator-box">
+    <div class="display"><textarea name="" id="display" cols="30"></textarea></div>
+    <div class="zero"><input type="button" value="0" onclick= "add(0)"></div>
+    <div class="one"><input type="button" value="1" onclick="add(1)"></div>
+    <div class="two"><input type="button" value="2" onclick="add(2)"></div>
+    <div class="three"><input type="button" value="3" onclick="add(3)"></div>
+    <div class="four"><input type="button" value="4" onclick="add(4)"></div>
+    <div class="five"><input type="button" value="5" onclick="add(5)"></div>
+    <div class="six"><input type="button" value="6" onclick="add(6)"></div>
+    <div class="seven"><input type="button" value="7" onclick="add(7)"></div>
+    <div class="eight"><input type="button" value="8" onclick="add(8)"></div>
+    <div class="nine"><input type="button" value="9" onclick="add(9)"></div>
+    <div class="period"><input type="button" value="." onclick="periodAdd()"></div>
+    <div class="equal"><input type="button" value="=" onclick="equalAdd()"></div>
+    <div class="plus"><input type="button" value="+" onclick="plusAdd('+')"></div>
+    <div class="minus"><input type="button" value="-" onclick="minusAdd()"></div>
+    <div class="times"><input type="button" value="✕" onclick="timesAdd()"></div>
+    <div class="divide"><input type="button" value="÷" onclick="divideAdd()"></div>
+    <div class="allclear"><input type="button" value="AC" onclick="allclear()"></div>
+  </div>
+</body>
+
+</html>
